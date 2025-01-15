@@ -1,14 +1,19 @@
 package Ej1;
 
-public class Modulo extends Profesor{
+public class Modulo{
     private String codigo;
     private String nombre;
     private String descripcion;
     private Integer horas;
     private Integer sesiones;
 
-    public Modulo(){
+    public Modulo(String codigo,String nombre2, String descripcion, Integer horas, Integer sesiones) {
 
+        this.codigo = codigo;
+        nombre = nombre2;
+        this.descripcion = descripcion;
+        this.horas = horas;
+        this.sesiones = sesiones;
     }
 
     public String getCodigo() {
@@ -57,5 +62,4 @@ public class Modulo extends Profesor{
                 + ", sesiones=" + sesiones + "]";
     }
 
-    
 }
