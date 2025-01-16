@@ -1,4 +1,5 @@
-package Ej1;
+package com.braispose;
+
 
 import java.sql.Date;
 
@@ -9,8 +10,15 @@ public class Profesor extends Persona{
     private boolean sustituto;
     private Date fecOposicion;
 
-    public Profesor (){
+  
 
+    public Profesor(String dni, String nombre, String apellido1, String apellido2, String correo, Integer movil,
+            Date fecNacimiento, String especialidad, String cuerpo, boolean sustituto, Date fecOposicion) {
+        super(dni, nombre, apellido1, apellido2, correo, movil, fecNacimiento);
+        this.especialidad = especialidad;
+        this.cuerpo = cuerpo;
+        this.sustituto = sustituto;
+        this.fecOposicion = fecOposicion;
     }
 
     public String getEspecialidad() {

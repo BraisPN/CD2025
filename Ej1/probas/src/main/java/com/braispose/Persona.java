@@ -1,4 +1,4 @@
-package Ej1;
+package com.braispose;
 
 import java.sql.Date;
 
@@ -11,10 +11,17 @@ public class Persona {
     private Integer movil;
     private Date fecNacimiento;
     
-    public Persona(){
-        super();
+    public Persona(String dni, String nombre, String apellido1, String apellido2, String correo, Integer movil,
+            Date fecNacimiento) {
+        this.dni = dni;
+        this.nombre = nombre;
+        this.apellido1 = apellido1;
+        this.apellido2 = apellido2;
+        this.correo = correo;
+        this.movil = movil;
+        this.fecNacimiento = fecNacimiento;
     }
-
+    
     public String getDni() {
         return dni;
     }

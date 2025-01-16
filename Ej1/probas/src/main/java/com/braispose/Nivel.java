@@ -1,4 +1,4 @@
-package Ej1;
+package com.braispose;
 
 public class Nivel {
     private String nivel;
