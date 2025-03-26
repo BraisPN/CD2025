@@ -1,0 +1,49 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/a21braispn/Documents/CD/CD2025/JavaDoc/ejer1/demo/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/a21braispn/Documents/CD/CD2025/JavaDoc/ejer1/demo/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'demo 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/a21braispn/Documents/CD/CD2025/JavaDoc/ejer1/demo/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'demo 1.0-SNAPSHOT API'
+com.braispose.circulo
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\src\main\java = 1742976406547
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\allclasses-index.html = 1742981290316
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\allpackages-index.html = 1742981290320
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\copy.svg = 1742981290362
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\element-list = 1742981290269
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\help-doc.html = 1742981290357
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\index-all.html = 1742981290342
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\index.html = 1742981290348
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\link.svg = 1742981290365
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\member-search-index.js = 1742981290330
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\module-search-index.js = 1742981290323
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\overview-tree.html = 1742981290304
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\package-search-index.js = 1742981290326
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\script.js = 1742981290361
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\search-page.js = 1742981290372
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\search.html = 1742981290345
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\search.js = 1742981290368
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\stylesheet.css = 1742981290359
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\tag-search-index.js = 1742981290332
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\ejer1\demo\target\reports\apidocs\type-search-index.js = 1742981290328
