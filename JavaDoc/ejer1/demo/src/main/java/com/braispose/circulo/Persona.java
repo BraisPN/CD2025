@@ -1,4 +1,4 @@
-package com.braispose.circulo;
+package com.braispose;
 
 /**
  * Clase "Persona" crea objetos personas en los que se guarda su nombre y edad
@@ -12,8 +12,7 @@ public class Persona {
      * Edad de la persona que se crea
      */
     private int edad;
-    /**
-     * Crea una persona con nombre y edad asignados
+    /**Crea una persona con nombre y edad asignados
      * @param nombre Nombre propio de la persona
      * @param edad Edad de la persona
      */
@@ -21,30 +20,30 @@ public class Persona {
         this.nombre = nombre;
         this.edad = edad;
     }
-    /**
+    /** Devuelve el nombre de la persona
      * 
-     * @return devuelve el nombre de la persona
+     * @return Nombre de "Persona"
      */
     public String getNombre() {
         return nombre;
     }
-    /**
+    /** Establece el nombre de la persona
      * 
-     * @param nombre establece el nombre de la persona
+     * @param nombre Nombre de "Persona"
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    /**
+    /** Devuelve la edad de la persona
      * 
-     * @return devuelve la edad de la persona
+     * @return Edad de "Persona"
      */
     public int getEdad() {
         return edad;
     }
-    /**
+    /** Establece la edad de la persona
      * 
-     * @param edad establece la edad de la persona
+     * @param edad Edad de "Persona"
      */
     public void setEdad(int edad) {
         this.edad = edad;
