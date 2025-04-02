@@ -1,0 +1,51 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/a21braispn/Documents/CD/CD2025/JavaDoc/javadoc2/demo/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/a21braispn/Documents/CD/CD2025/JavaDoc/javadoc2/demo/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'demo 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/a21braispn/Documents/CD/CD2025/JavaDoc/javadoc2/demo/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'demo 1.0-SNAPSHOT API'
+com.braispose.circulo
+com.braispose
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\src\main\java = 1743579675482
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\allclasses-index.html = 1743580980396
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\allpackages-index.html = 1743580980400
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\copy.svg = 1743580980441
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\element-list = 1743580980318
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\help-doc.html = 1743580980433
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\index-all.html = 1743580980421
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\index.html = 1743580980379
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\link.svg = 1743580980443
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\member-search-index.js = 1743580980405
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\module-search-index.js = 1743580980402
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\overview-summary.html = 1743580980426
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\overview-tree.html = 1743580980374
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\package-search-index.js = 1743580980403
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\script.js = 1743580980439
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\search-page.js = 1743580980451
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\search.html = 1743580980423
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\search.js = 1743580980448
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\stylesheet.css = 1743580980437
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\tag-search-index.js = 1743580980406
+C:\Users\a21braispn\Documents\CD\CD2025\JavaDoc\javadoc2\demo\target\reports\apidocs\type-search-index.js = 1743580980404

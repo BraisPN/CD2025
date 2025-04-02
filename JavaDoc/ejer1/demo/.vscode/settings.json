@@ -1,0 +1,9 @@
+{
+    "java.test.config": {
+        "name": "JUnit",
+        "workingDirectory": "${workspaceFolder}",
+        "args": []
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
+    
+}
