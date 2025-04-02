@@ -1,4 +1,4 @@
-package com.braispose.circulo;
+package com.braispose;
 
 /**
  * Clase "Persona" crea objetos personas en los que se guarda su nombre y edad
