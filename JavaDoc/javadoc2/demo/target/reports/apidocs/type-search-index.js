@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.braispose.circulo","l":"Circulo"},{"p":"com.braispose.circulo","l":"Estudiante"},{"p":"com.braispose","l":"Main"},{"p":"com.braispose.circulo","l":"Persona"}];updateSearchResults();

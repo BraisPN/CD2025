@@ -2,51 +2,86 @@ package com.braispose;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.jupiter.api.Test;
-
 import com.braispose.circulo.Circulo;
+import org.junit.jupiter.api.Test;
 
 public class CirculoTest {
     @Test
-    void establecerXTest(){
+    void establecerXTest() {
         Circulo c1 = new Circulo(0, 0, 0);
-        c1.establecerX(3);
-        assertEquals(3, c1.obtenerX());
+        final int valorX = 3;
+        final int esperado = 3;
+        c1.establecerX(valorX);
+        assertEquals(esperado, c1.obtenerX());
     }
+
     @Test
-    void establecerYTest(){
+    void establecerYTest() {
         Circulo c1 = new Circulo(0, 0, 0);
-        c1.establecerY(3);
-        assertEquals(3, c1.obtenerY());
+        final int valorY = 3;
+        final int esperado = 3;
+        c1.establecerY(valorY);
+        assertEquals(esperado, c1.obtenerY());
     }
+
     @Test
-    void obtenerRadioTest(){
-        Circulo c1 = new Circulo(2, 3, 4);
-        c1.establecerRadio(3);
-        assertEquals(3, c1.obtenerRadio());
+    void obtenerRadioTest() {
+        final int valorX1 = 2;
+        final int valorY1 = 3;
+        final int valorRadio1 = 4;
+        Circulo c1 = new Circulo(valorX1, valorY1, valorRadio1);
+        final int valorRadio = 3;
+        final int esperado = 3;
+        c1.establecerRadio(valorRadio);
+        assertEquals(esperado, c1.obtenerRadio());
     }
+
     @Test
-    void obtenerDiametroTest(){
-        Circulo c1 = new Circulo(2, 3, 4);
-        c1.establecerRadio(3);
-        assertEquals(6, c1.obtenerDiametro());
+    void obtenerDiametroTest() {
+        final int valorX1 = 2;
+        final int valorY1 = 3;
+        final int valorRadio1 = 4;
+        Circulo c1 = new Circulo(valorX1, valorY1, valorRadio1);
+        final int valorRadio = 3;
+        final int esperado = 6;
+        c1.establecerRadio(valorRadio);
+        assertEquals(esperado, c1.obtenerDiametro());
     }
+
     @Test
-    void obtenerCircunferenciaTest(){
-        Circulo c1 = new Circulo(2, 3, 4);
-        c1.establecerRadio(3);
+    void obtenerCircunferenciaTest() {
+        final int valorX1 = 2;
+        final int valorY1 = 3;
+        final int valorRadio1 = 4;
+        Circulo c1 = new Circulo(valorX1, valorY1, valorRadio1);
+        final int valorRadio = 3;
+        c1.establecerRadio(valorRadio);
         assertEquals(Math.PI * c1.obtenerDiametro(), c1.obtenerCircunferencia());
     }
+
     @Test
-    void obtenerAreaTest(){
-        Circulo c1 = new Circulo(2, 3, 4);
-        c1.establecerRadio(3);
-        assertEquals(Math.PI * 3 * 3, c1.obtenerArea());
+    void obtenerAreaTest() {
+        final int valorX1 = 2;
+        final int valorY1 = 3;
+        final int valorRadio1 = 4;
+        Circulo c1 = new Circulo(valorX1, valorY1, valorRadio1);
+        final int valorRadio = 3;
+        c1.establecerRadio(valorRadio);
+        final int formula = 3 * 3;
+        assertEquals(Math.PI * formula, c1.obtenerArea());
     }
+
     @Test
-    void toStringTest(){
-        Circulo c1 = new Circulo(2, 3, 4);
-        c1.establecerRadio(3);
-        assertEquals("Centro = [" + 2 + "," + 3 + "]; Radio = " + 3.0, c1.toString());
+    void toStringTest() {
+        final int valorX1 = 2;
+        final int valorY1 = 3;
+        final int valorRadio1 = 4;
+        Circulo c1 = new Circulo(valorX1, valorY1, valorRadio1);
+        final int valorRadio = 3;
+        c1.establecerRadio(valorRadio);
+        final int centro1 = 2;
+        final int centro2 = 3;
+        final double radio = 3.0;
+        assertEquals("Centro = [" + centro1 + "," + centro2 + "]; Radio = " + radio, c1.toString());
     }
 }

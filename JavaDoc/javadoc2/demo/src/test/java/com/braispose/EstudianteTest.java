@@ -1,60 +1,64 @@
 package com.braispose;
 
-import org.junit.jupiter.api.Test;
-
-import com.braispose.circulo.Estudiante;
-
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
+import com.braispose.circulo.Estudiante;
+import org.junit.jupiter.api.Test;
 
 class EstudianteTest {
 
     @Test
     void testConstructorYGetters() {
-        Estudiante estudiante = new Estudiante("Juan", 20);
+        final int edad = 20;
+        Estudiante estudiante = new Estudiante("Juan", edad);
         assertEquals("Juan", estudiante.getNombre());
-        assertEquals(20, estudiante.getEdad());
+        assertEquals(edad, estudiante.getEdad());
         assertEquals(0.0, estudiante.getCalificacion());
     }
 
     @Test
     void testSetters() {
-        Estudiante estudiante = new Estudiante("Maria", 22);
+        final int edad = 22;
+        final int novaEdad = 25;
+        final double calificacion = 8.5;
+        Estudiante estudiante = new Estudiante("Maria", edad);
         estudiante.setNombre("Carlos");
-        estudiante.setEdad(25);
-        estudiante.setCalificacion(8.5);
+        estudiante.setEdad(novaEdad);
+        estudiante.setCalificacion(calificacion);
 
         assertEquals("Carlos", estudiante.getNombre());
-        assertEquals(25, estudiante.getEdad());
-        assertEquals(8.5, estudiante.getCalificacion());
+        assertEquals(novaEdad, estudiante.getEdad());
+        assertEquals(calificacion, estudiante.getCalificacion());
     }
 
     @Test
     void testAprobo() {
-        Estudiante estudiante = new Estudiante("Ana", 18);
-        estudiante.setCalificacion(6.0);
+        final int edad = 22;
+        final double calificacion = 8.5;
+        final double novaCalificacion = 4.9;
+        Estudiante estudiante = new Estudiante("Ana", edad);
+        estudiante.setCalificacion(calificacion);
         assertTrue(estudiante.aprobo());
 
-        estudiante.setCalificacion(4.9);
+        estudiante.setCalificacion(novaCalificacion);
         assertFalse(estudiante.aprobo());
     }
 
     @Test
     void testEdadEscolar() {
-        Estudiante estudiante = new Estudiante("Luis", 24);
+        final int edad = 24;
+        Estudiante estudiante = new Estudiante("Luis", edad);
         assertEquals(2, estudiante.edadEscolar()); // 24 / 12 = 2
     }
 
     @Test
     void testEsUniversitario() {
-        Estudiante estudiante = new Estudiante("Elena", 17);
+        final int edad = 17;
+        Estudiante estudiante = new Estudiante("Elena", edad);
         assertFalse(estudiante.esUniversitario());
 
-        estudiante.setEdad(18);
+        estudiante.setEdad(edad + 1);
         assertTrue(estudiante.esUniversitario());
     }
-
 
 }

@@ -2,15 +2,19 @@ package com.braispose;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import com.braispose.circulo.Circulo;
 import org.junit.jupiter.api.Test;
 
-import com.braispose.circulo.Circulo;
-
+/**
+ * Test de Circulo.
+ */
 public class CirculoTest {
     @Test
-    void establecerXTest(){
+    void establecerXTest() {
         Circulo c1 = new Circulo(0, 0, 0);
-        c1.establecerX(3);
-        assertEquals(3, c1.obtenerX());
+        final int valorX = 3;
+        final int esperado = 3;
+        c1.establecerX(valorX);
+        assertEquals(esperado, c1.obtenerX());
     }
 }
