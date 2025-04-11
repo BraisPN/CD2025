@@ -2,7 +2,6 @@ package com.braispose;
 
 public class Fecha {
 
-    // Constantes estáticas primero (según Checkstyle)
     private static final int DIA_MINIMO = 1;
     private static final int DIA_MAXIMO = 31;
     private static final int MES_MINIMO = 1;
@@ -12,7 +11,6 @@ public class Fecha {
     private static final int DIAS_MES_30 = 30;
     private static final int DIAS_MES_31 = 31;
 
-    // Constantes para los meses
     private static final int ENERO = 1;
     private static final int FEBRERO = 2;
     private static final int MARZO = 3;
@@ -26,7 +24,6 @@ public class Fecha {
     private static final int NOVIEMBRE = 11;
     private static final int DICIEMBRE = 12;
 
-    // Variables de instancia
     private int dia;
     private int mes;
     private int anio;
@@ -45,7 +42,6 @@ public class Fecha {
             return false;
         }
 
-        // Determinamos la cantidad de días del mes
         int diasMes = 0;
 
         switch (mes) {
@@ -58,8 +54,11 @@ public class Fecha {
                 diasMes = DIAS_MES_30;
                 break;
 
-            case FEBRERO: // Verificación de año bisiesto
-                if (anio % 400 == 0 || (anio % 4 == 0) && (anio % 100 != 0)) {
+            case FEBRERO:
+                final int modulo = 400;
+                final int modulo1 = 4;
+                final int modulo2 = 100;
+                if (anio % modulo == 0 || anio % modulo1 == 0 && anio % modulo2 != 0) {
                     diasMes = DIAS_FEBRERO_BISIESTO;
                 } else {
                     diasMes = DIAS_FEBRERO_NORMAL;
