@@ -110,7 +110,7 @@ public abstract class Piece
 
 ```
 
- - Utiliza el método abstracto de la clase **"Piece"** para aplicar el polimorfismo
+ - Utiliza el método abstracto de la clase **"Piece"** para aplicar el polimorfismo.
 
 ```java
 //Fixed Collapsing Hierarchy (another instance of lazy-class)
